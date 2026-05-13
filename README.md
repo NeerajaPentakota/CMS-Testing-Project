@@ -1,29 +1,25 @@
-# Content-Management-Systems-Journal-Testing-project
-# CMS Journal Testing Project
 
-## Objective
-This project aims to perform end-to-end testing of a Journal/Content Management System using WordPress.
+# CMS Journal Management Testing Project
 
-## Scope
-- Functional Testing
+## Overview
+This project demonstrates end-to-end testing of a Journal/Content Management System built using WordPress.
+
+## Testing Types
+- Manual Testing
 - API Testing
 - Database Testing
 - Security Testing
 - Accessibility Testing
 - Regression Testing
 
-## Tools Used
+## Tools
 - WordPress
 - Jira
 - Postman
 - MySQL Workbench
 - GitHub
 - Selenium IDE
+- OWASP ZAP
 
-## Modules Covered
-- Authentication
-- Article Submission
-- Metadata Validation
-- Editorial Workflow
-- Media Upload
-- REST APIs
+## Project Status
+Phase 1 - Project Setup

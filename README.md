@@ -1,102 +1,70 @@
-# CMS Journal Management Testing Project
+# CMS Testing Project
 
 ## Project Overview
-This project demonstrates end-to-end software testing of a Journal/Content Management System using WordPress as the application under test.
 
-The project simulates real-world journal publishing workflows similar to OMICS and editorial management platforms.
+This project focuses on testing a Content Management System (CMS) using WordPress. The objective is to perform end-to-end Manual Testing, Database Testing, API Testing, and Defect Tracking activities similar to real-world journal publishing and content management applications.
 
-# Project Objectives
+## Tools Used
 
-- Validate article submission workflows
-- Perform metadata field validation
-- Test role-based access control
-- Execute API testing using Postman
-- Validate database integrity using MySQL
-- Perform security and accessibility testing
+* WordPress
+* Jira
+* MySQL Workbench
+* XAMPP
+* GitHub
+* Postman
+* Microsoft Excel
 
+## Modules Covered
 
-# Tools & Technologies Used
+* Login Management
+* Article Creation
+* Article Publishing Workflow
+* Metadata Management
+* Media Upload
+* User Management
+* Search Functionality
 
-| Tool | Purpose |
-|------|----------|
-| WordPress | CMS Application |
-| XAMPP | Local Server |
-| MySQL | Database |
-| phpMyAdmin | DB Management |
-| Jira | Agile & Defect Tracking |
-| Postman | API Testing |
-| GitHub | Version Control |
-| MySQL Workbench | Database Validation |
-| Selenium IDE | Automation Testing |
-| OWASP ZAP | Security Testing |
-| Lighthouse | Performance Testing |
+## Day 1 Progress
 
+### Environment Setup
 
-# Modules Covered
+* Installed XAMPP
+* Installed WordPress
+* Configured Admin User
+* Connected MySQL Workbench
+* Verified WordPress Database Tables
 
-- Authentication Testing
-- Article Submission Testing
-- Metadata Validation
-- Publish Workflow Testing
-- Media Upload Testing
-- REST API Testing
-- Database Testing
-- Security Testing
-- Accessibility Testing
+### Jira Setup
 
+* Created CMS Testing Project
+* Created User Stories
+* Configured Backlog
 
-# User Roles Configured
+### Documentation
 
-- Admin
-- Author
-- Editor
-- Reviewer
+* Requirement Analysis Document Created
+* Test Scenarios Document Created
 
+### Database Validation
 
-# Metadata Fields Implemented
+Verified:
 
-- ORCID
-- DOI
-- Keywords
-- Affiliation
+* wp_posts
+* wp_users
+* wp_postmeta
+* wp_terms
 
+## Upcoming Work
 
+### Day 2
 
-# Agile Testing Process
+* Test Case Design
+* Test Execution
+* Defect Reporting
 
-- Sprint Planning
-- Test Case Design
-- Defect Reporting
-- Regression Testing
-- UAT Testing
+### Day 3
 
-
-
-# Current Progress
-
-## Completed
-- Day 1: Project Setup & GitHub Repository
-- Day 2: XAMPP + WordPress Installation
-- Day 3: CMS Workflow & Metadata Configuration
-
-## In Progress
-- Jira Agile Workflow Setup
-- Functional Test Case Design
-
-
-
-# Repository Structure
-
-```text
-docs/
-testcases/
-bugreports/
-jira/
-api/
-sql/
-security/
-performance/
-accessibility/
-automation/
-screenshots/
-reports/
+* API Testing using Postman
+* SQL Validation
+* GitHub Project Documentation
+* Test Summary Report

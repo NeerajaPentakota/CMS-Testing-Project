@@ -2,69 +2,65 @@
 
 ## Project Overview
 
-This project focuses on testing a Content Management System (CMS) using WordPress. The objective is to perform end-to-end Manual Testing, Database Testing, API Testing, and Defect Tracking activities similar to real-world journal publishing and content management applications.
+End-to-end testing of a WordPress Content Management System (CMS) covering Functional Testing, Database Testing, API Testing, and Defect Management.
 
 ## Tools Used
 
 * WordPress
 * Jira
 * MySQL Workbench
-* XAMPP
-* GitHub
 * Postman
+* GitHub
 * Microsoft Excel
+* XAMPP
 
-## Modules Covered
+## Day 1 Completed
 
-* Login Management
-* Article Creation
-* Article Publishing Workflow
-* Metadata Management
+* Environment Setup
+* WordPress Installation
+* Jira Project Creation
+* Requirement Analysis
+* Test Scenario Design
+* Database Setup Validation
+
+## Day 2 Completed
+
+### Test Case Design
+
+* Created 30 Manual Test Cases
+* Covered Login, Posts, Media, Metadata, and User Management modules
+
+### Test Execution
+
+* Total Test Cases Executed: 30
+* Passed: 29
+* Failed: 1
+* Pass Rate: 96.67%
+
+### Defect Reporting
+
+* Total Defects Identified: 1
+* Defect Logged in Jira
+
+#### Bug Summary
+
+BUG_001: System allows publishing article without title
+
+Severity: Medium
+Priority: High
+
+### Modules Tested
+
+* Login Functionality
+* Article Creation & Publishing
+* Draft Management
 * Media Upload
+* Categories & Tags
 * User Management
-* Search Functionality
 
-## Day 1 Progress
+## Upcoming Work (Day 3)
 
-### Environment Setup
-
-* Installed XAMPP
-* Installed WordPress
-* Configured Admin User
-* Connected MySQL Workbench
-* Verified WordPress Database Tables
-
-### Jira Setup
-
-* Created CMS Testing Project
-* Created User Stories
-* Configured Backlog
-
-### Documentation
-
-* Requirement Analysis Document Created
-* Test Scenarios Document Created
-
-### Database Validation
-
-Verified:
-
-* wp_posts
-* wp_users
-* wp_postmeta
-* wp_terms
-
-## Upcoming Work
-
-### Day 2
-
-* Test Case Design
-* Test Execution
-* Defect Reporting
-
-### Day 3
-
+* Database Testing using MySQL Workbench
 * API Testing using Postman
-* SQL Validation
-* GitHub Project Documentation
 * Test Summary Report
+* GitHub Documentation Enhancement

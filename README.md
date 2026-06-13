@@ -1,16 +1,18 @@
-# CMS Testing Project
+# CMS Journal Management Testing Project
 
-## Project Overview
-This project demonstrates end-to-end Software Testing of a Content Management System (CMS) using WordPress.
+## Overview
+This project demonstrates complete Software Testing of a Content Management System (CMS) built on WordPress.
 
-## Scope
+### Testing Areas Covered
 - Functional Testing
-- Database Testing
-- API Testing
-- Defect Management
-- Jira Tracking
+- Test Case Design
+- Test Execution
+- Defect Reporting
+- Jira Project Management
+- Database Testing (MySQL)
+- API Testing (Postman)
 
-## Tools Used
+### Tools Used
 - WordPress
 - Jira
 - MySQL Workbench
@@ -19,30 +21,10 @@ This project demonstrates end-to-end Software Testing of a Content Management Sy
 - GitHub
 - Excel
 
-## Functional Testing
-Total Test Cases: 30
-Passed: 29
-Failed: 1
-
-## API Testing
-Total APIs Tested: 6
-Passed: 6
-Failed: 0
-
-## Defects
-BUG_001 - System allows article publication without title.
-
-## Database Validation
-Validated:
-- wp_posts
-- wp_terms
-- wp_term_taxonomy
-- wp_users
-
-## Key Skills Demonstrated
-- Test Case Design
-- Test Execution
-- Defect Reporting
-- API Testing
-- SQL Validation
-- Jira Workflow Management
+### Project Results
+- Functional Test Cases: 30
+- Passed: 29
+- Failed: 1
+- APIs Tested: 6
+- APIs Passed: 6
+- Defects Found: 1
